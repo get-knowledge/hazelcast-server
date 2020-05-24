@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Component
 @Slf4j
-public class hazelcastMember implements CommandLineRunner {
+public class HazelcastMember implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
